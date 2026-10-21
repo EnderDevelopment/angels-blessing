@@ -1,0 +1,22 @@
+name: Angel's Blessing
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that provides Innocence Protection for players selected by admins.
+api-version: "1.21"
+commands:
+  bless:
+    description: Select a player for Angel's Blessing.
+    usage: /bless <player>
+    permission: angelsblessing.bless
+  unbless:
+    description: Remove Angel's Blessing from a player.
+    usage: /unbless <player>
+    permission: angelsblessing.unbless
+permissions:
+  angelsblessing.bless:
+    description: Allows selecting players for Angel's Blessing.
+    default: op
+  angelsblessing.unbless:
+    description: Allows removing Angel's Blessing from players.
+    default: op
